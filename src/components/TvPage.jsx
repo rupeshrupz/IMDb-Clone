@@ -229,7 +229,8 @@ const TvPage = () => {
             direction="row"
             alignItems="center"
             flexBasis="80%"
-            justifyContent="space-evenly"
+            justifyContent="start"
+            sx={{gap:{md:"50px",sm:"10px"}}}
           >
             <Card
               sx={{
