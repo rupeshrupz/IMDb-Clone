@@ -237,13 +237,16 @@ const MoviePage = () => {
             direction="row"
             alignItems="center"
             flexBasis="80%"
-            justifyContent="space-evenly"
+            justifyContent="start"
+
+            sx={{gap:{md:"50px",sm:"10px"}}}
           >
             <Card
               sx={{
                 maxWidth: "250px",
                 border: "1px solid black",
-                display: { md: "block", sm: "block", xs: "none" },
+                display: { md: "block", sm: "block", xs: "none" }
+
               }}
             >
               <CardMedia
