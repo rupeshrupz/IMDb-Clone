@@ -1,0 +1,99 @@
+
+
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.socialMediaIcon{
+  padding: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+
+}
+
+.socialMediaIcon:hover{
+  background-color: rgb(35 31 31 / 87%);
+}
+
+#footer1{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#footer1 li{
+  padding: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#footer1 li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.carousel-root > div:last-child {
+  display: none;
+}
+
+.card{
+  display: flex !important;
+  /* height: 150px; */
+}
+
+.upNextCard{
+  /* border: 1px solid yellow; */
+  height: 400px;
+  overflow: hidden;
+  width: 60%;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .upNextCard{
+    /* border: 1px solid yellow; */
+    width: 100%;
+  }
+
+   #upNextMain{
+    display: none !important;
+   }
+
+
+
+   #footer1 li{
+    font-weight: 500;
+    font-size: 14px;
+   }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-root{
+    width: 100%;
+  }
+
+
+
+   #footer1 li{
+    font-weight: 300;
+    font-size: 12px;
+   }
+}
+
+#featuredTodayMonthly1,#featuredTodayMonthly2{
+  display: none;
+}
+
+#monthlyReleaseCard:nth-child(odd){
+  background-color: #f6f6f5;
+}
